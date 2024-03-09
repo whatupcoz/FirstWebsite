@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoWo English Classes</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="imagenes/CompanyLogo-removebg-preview.png">
+</head>
+<header>
+    <img id="gifcompany" src="imagenes/IMG_3333.gif"alt="LogoCoWo">
+</header>
+<script src="main.js"></script>
+<body> 
+    <!-- List of reasons to learn English-->
+    <h1>Reasons to learn English</h1>
+    <p class="hover-text" style="font-size: 30px;">Studying abroad</p>
+    <p class="hover-text2" style="font-size: 30px;">Connecting with people</p>
+    <form id="motiveForm">
+        <p style="font-size: 30px;" id="personal">Write three more motives of your own!</p>
+        <input id="personalMotive">
+        <button type="button" onclick="userMotive();">Enter</button>
+    </form>
+    <h1>Why should you study at CoWo?</h1>
+<div class="image-container">
+    <div class="image-wrapper">
+    <img src="imagenes/simpleblueprints.png" class="images" alt="Image1">
+    <div class="overlay">
+        <div class="text">Tailored learning</div>
+    </div>
+  </div>
+</div>
+<div class="image-wrapper">
+    <img src="imagenes/Student-Study-Online-E-learning-Customer-Teaching-5368573.png" class="images" alt="Image2">
+    <div class="overlay">
+        <div class="text">English made fun</div>
+    </div>
+</div>
+<div class="image-wrapper">
+    <img src="imagenes/8memx9zdnu_366i3v4voy_vc064636.png" class="images" alt="Image3">
+    <div class="overlay">
+        <div class="text">Beyond the class</div>
+    </div>
+    </div>
+</div>
+    <h1>Choose your plan</h1>
+    <table>
+        <thead>
+            <tr>
+    <!--<input name="Intensidad" list="Intensidad" placeholder="Intensidad de estudio">
+    <datalist id="Intensidad">
+        <option value="1 día a la semana">
+        <option value="3 días a la semana">
+        <option value="5 días a la semana">
+        <option value="7 días a la semana">            
+    </datalist>
+    <br>
+    <input name="Modalidad" list="Modalidad" placeholder="Modalidad">
+    <datalist id="Modalidad">
+        <option value="Individual Virtual">
+        <option value="Individual Presencial">
+        <option value="Grupal Virtual"> 
+        <option value="Grupal Presencial">
+    </datalist>
+    <br>
+    <input name="Nivel" list="Nivel Actual" placeholder="Nivel Actual">
+    <datalist id="Nivel Actual">
+        <option value="Principiante">
+        <option value="Intermedio">
+        <option value="Avanzado">
+    </datalist>
+    <br>
+    <button id="btn" >Find your course!</button>
+ <input type="submit"> -->
+ <label for="days">Days to study:</label>
+ <select id="days">
+   <option value="1">1 day a week</option>
+   <option value="2">2 days a week</option>
+ </select>
+ <label for="type">Type:</label>
+ <select id="type">
+   <option value="virtual">Virtual</option>
+   <option value="face-to-face">Face-to-face</option>
+ </select>
+ 
+ <label for="level">Level:</label>
+ <select id="level">
+   <option value="beginner">Beginner</option>
+   <option value="intermediate">Intermediate</option>
+ </select>
+
+ <button onclick="calculateCourse()">Find Your Course!</button>
+ 
+ <p id="result"></p>
+</form>  
+</div>
+</div>
+</tr>
+</thead>
+</table>
+<h1>See more</h1>
+<a href="gallery.html">Gallery</a>
+<a href="caracteristicas.html">Is this course for me?</a>
+</body>
+</html>
